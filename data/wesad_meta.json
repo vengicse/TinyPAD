@@ -1,0 +1,169 @@
+{
+ "name": "WESAD",
+ "modalities": {
+  "chest_ecg": {
+   "channels": 1,
+   "length": 3000,
+   "hz": 100,
+   "source": "chest",
+   "signals": [
+    "ECG"
+   ]
+  },
+  "chest_resp": {
+   "channels": 1,
+   "length": 300,
+   "hz": 10,
+   "source": "chest",
+   "signals": [
+    "Resp"
+   ]
+  },
+  "chest_eda_temp": {
+   "channels": 2,
+   "length": 120,
+   "hz": 4,
+   "source": "chest",
+   "signals": [
+    "EDA",
+    "Temp"
+   ]
+  },
+  "chest_acc": {
+   "channels": 3,
+   "length": 960,
+   "hz": 32,
+   "source": "chest",
+   "signals": [
+    "ACC"
+   ]
+  },
+  "wrist_bvp": {
+   "channels": 1,
+   "length": 960,
+   "hz": 32,
+   "source": "wrist",
+   "signals": [
+    "BVP"
+   ]
+  },
+  "wrist_eda_temp": {
+   "channels": 2,
+   "length": 120,
+   "hz": 4,
+   "source": "wrist",
+   "signals": [
+    "EDA",
+    "TEMP"
+   ]
+  },
+  "wrist_acc": {
+   "channels": 3,
+   "length": 960,
+   "hz": 32,
+   "source": "wrist",
+   "signals": [
+    "ACC"
+   ]
+  }
+ },
+ "n_windows": 6421,
+ "subjects": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "anomaly_rate": 0.2994860613611587,
+ "per_subject": {
+  "2": {
+   "n": 409,
+   "stress": 118,
+   "calib": 54
+  },
+  "3": {
+   "n": 417,
+   "stress": 123,
+   "calib": 54
+  },
+  "4": {
+   "n": 419,
+   "stress": 122,
+   "calib": 54
+  },
+  "5": {
+   "n": 430,
+   "stress": 125,
+   "calib": 54
+  },
+  "6": {
+   "n": 427,
+   "stress": 125,
+   "calib": 54
+  },
+  "7": {
+   "n": 425,
+   "stress": 123,
+   "calib": 54
+  },
+  "8": {
+   "n": 429,
+   "stress": 130,
+   "calib": 54
+  },
+  "9": {
+   "n": 425,
+   "stress": 125,
+   "calib": 54
+  },
+  "10": {
+   "n": 443,
+   "stress": 141,
+   "calib": 54
+  },
+  "11": {
+   "n": 432,
+   "stress": 132,
+   "calib": 54
+  },
+  "13": {
+   "n": 431,
+   "stress": 128,
+   "calib": 54
+  },
+  "14": {
+   "n": 431,
+   "stress": 130,
+   "calib": 54
+  },
+  "15": {
+   "n": 432,
+   "stress": 132,
+   "calib": 54
+  },
+  "16": {
+   "n": 429,
+   "stress": 129,
+   "calib": 54
+  },
+  "17": {
+   "n": 442,
+   "stress": 140,
+   "calib": 54
+  }
+ },
+ "window_s": 30,
+ "stride_s": 5,
+ "calib_min": 5
+}

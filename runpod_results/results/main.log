@@ -1,0 +1,184 @@
+main: 56 jobs, 6 workers
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[1/56] ok mitbih_RF-HCF_s2.json 28s elapsed 32s
+[2/56] ok mitbih_RF-HCF_s3.json 28s elapsed 32s
+[3/56] ok mitbih_RF-HCF_s1.json 29s elapsed 33s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[4/56] ok mitbih_RF-HCF_s0.json 30s elapsed 34s
+[5/56] ok mitbih_RF-HCF_s4.json 31s elapsed 34s
+[6/56] ok mitbih_CAE_s0.json 89s elapsed 92s
+[7/56] ok mitbih_EF-CNN_s1.json 32s elapsed 124s
+[8/56] ok mitbih_CAE_s1.json 107s elapsed 139s
+[9/56] ok mitbih_CAE_s3.json 107s elapsed 140s
+[10/56] ok mitbih_CAE_s2.json 108s elapsed 140s
+[11/56] ok mitbih_CAE_s4.json 108s elapsed 143s
+[12/56] ok mitbih_EF-CNN_s0.json 131s elapsed 166s
+[13/56] ok mitbih_EF-CNN_s3.json 28s elapsed 167s
+[14/56] ok mitbih_EF-CNN_s2.json 44s elapsed 168s
+[15/56] ok mitbih_EF-CNN_s4.json 34s elapsed 173s
+[16/56] ok mitbih_LF-CNN_s1.json 45s elapsed 188s
+[17/56] ok mitbih_LF-CNN_s0.json 63s elapsed 204s
+[18/56] ok mitbih_CNN-LSTM_s0.json 45s elapsed 218s
+[19/56] ok mitbih_CNN-LSTM_s1.json 40s elapsed 228s
+[20/56] ok mitbih_LF-CNN_s3.json 64s elapsed 231s
+[21/56] ok mitbih_LF-CNN_s2.json 80s elapsed 246s
+[22/56] ok mitbih_CNN-LSTM_s2.json 63s elapsed 267s
+[23/56] ok mitbih_CNN-LSTM_s3.json 49s elapsed 267s
+[24/56] ok mitbih_CNN-LSTM_s4.json 53s elapsed 280s
+[25/56] ok mitbih_TinyTransformer_s1.json 52s elapsed 298s
+[26/56] ok mitbih_TinyTransformer_s0.json 74s elapsed 305s
+[27/56] ok mitbih_LF-CNN_s4.json 146s elapsed 314s
+[28/56] ok mitbih_TinyTransformer_s2.json 73s elapsed 340s
+[29/56] ok mitbih_TinyTransformer_s3.json 76s elapsed 343s
+[30/56] ok mitbih_TinyTransformer_s4.json 93s elapsed 373s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[31/56] ok mitbih_TinyPAD_s1.json 78s elapsed 383s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[32/56] ok mitbih_TinyPAD_s0.json 102s elapsed 400s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[33/56] ok mitbih_TinyPAD_s2.json 91s elapsed 405s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[34/56] ok mitbih_TinyPAD_s3.json 68s elapsed 408s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[35/56] ok mitbih_TinyPAD_s4.json 72s elapsed 415s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+Traceback (most recent call last):
+  File "/root/h/code/run_health.py", line 68, in run_job
+    res["folds"].append(run_fold(H, D, ds, method, cfg, seed, shapes, fold, tr_s, va_s, te_s))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/h/code/run_health.py", line 94, in run_fold
+    model, info = H.train_deep(model, xtr, ytr, xva, yva, seed, ae=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/h/code/healthlib.py", line 369, in train_deep
+    model.load_state_dict(best_state)
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 2166, in load_state_dict
+    raise TypeError(f"Expected state_dict to be dict-like, got {type(state_dict)}.")
+TypeError: Expected state_dict to be dict-like, got <class 'NoneType'>.
+
+[36/56] ERROR wesad_CAE_s1.json 18s elapsed 426s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+Traceback (most recent call last):
+  File "/root/h/code/run_health.py", line 68, in run_job
+    res["folds"].append(run_fold(H, D, ds, method, cfg, seed, shapes, fold, tr_s, va_s, te_s))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/h/code/run_health.py", line 94, in run_fold
+    model, info = H.train_deep(model, xtr, ytr, xva, yva, seed, ae=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/h/code/healthlib.py", line 369, in train_deep
+    model.load_state_dict(best_state)
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 2166, in load_state_dict
+    raise TypeError(f"Expected state_dict to be dict-like, got {type(state_dict)}.")
+TypeError: Expected state_dict to be dict-like, got <class 'NoneType'>.
+
+[37/56] ERROR wesad_CAE_s2.json 39s elapsed 453s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[38/56] ok wesad_RF-HCF_s0.json 97s elapsed 470s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[39/56] ok wesad_RF-HCF_s1.json 93s elapsed 477s
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+/usr/local/lib/python3.11/dist-packages/sklearn/ensemble/_base.py:174: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = min(effective_n_jobs(n_jobs), n_estimators)
+[40/56] ok wesad_RF-HCF_s2.json 100s elapsed 500s
+[41/56] ok wesad_CAE_s0.json 97s elapsed 502s
+[42/56] ok wesad_EF-CNN_s0.json 117s elapsed 543s
+[43/56] ok wesad_EF-CNN_s1.json 118s elapsed 571s
+[44/56] ok wesad_EF-CNN_s2.json 148s elapsed 618s
+[45/56] ok wesad_CNN-LSTM_s0.json 158s elapsed 701s
+[46/56] ok wesad_CNN-LSTM_s1.json 142s elapsed 713s
+[47/56] ok wesad_CNN-LSTM_s2.json 153s elapsed 771s
+[48/56] ok wesad_TinyTransformer_s1.json 124s elapsed 837s
+[49/56] ok wesad_TinyTransformer_s0.json 143s elapsed 844s
+[50/56] ok wesad_LF-CNN_s0.json 447s elapsed 923s
+[51/56] ok wesad_TinyTransformer_s2.json 160s elapsed 931s
+[52/56] ok wesad_LF-CNN_s2.json 452s elapsed 954s
+[53/56] ok wesad_LF-CNN_s1.json 478s elapsed 977s
+[54/56] ok wesad_TinyPAD_s0.json 407s elapsed 1244s
+[55/56] ok wesad_TinyPAD_s1.json 514s elapsed 1358s
+[56/56] ok wesad_TinyPAD_s2.json 438s elapsed 1362s
+ALL_DONE

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/*.npz
+raw/
+manuscript/manuscript_full.md
+manuscript/build_log.json
+manuscript/*.docx
+!manuscript/reference.docx
+~$*

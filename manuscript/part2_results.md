@@ -1,0 +1,40 @@
+# 4. Experimental Setup, Results and Discussion
+
+## 4.1 Datasets and features
+
+**WESAD** [@schmidt2018] is a public multimodal dataset for wearable stress and affect detection recorded with a chest-worn RespiBAN device (sampled at 700 Hz) and a wrist-worn Empatica E4. It has been used in recent wearable stress and TinyML studies [@rashid2023; @choi2025; @almadhor2025; @abusamah2025]. We use the 15 subjects of the public release and the study-protocol labels baseline, stress and amusement; the anomaly class is *stress* and the normal class comprises baseline and amusement, which makes the task harder than baseline-versus-stress because amusement also raises arousal. Seven sensor modalities are formed and resampled to rates that suit microcontroller processing: chest ECG (100 Hz), chest respiration (10 Hz), chest EDA and skin temperature (2 channels, 4 Hz), chest 3-axis accelerometer (32 Hz), wrist blood-volume pulse from PPG (32 Hz), wrist EDA and skin temperature (2 channels, 4 Hz) and wrist 3-axis accelerometer (32 Hz). Signals are segmented into 30-s windows with a 5-s stride, and a window is kept if at least 90 % of its label samples belong to one of the three classes, which yields {{wesad_n_windows}} windows ({{wesad_stress_pct}} % stress). The first five minutes of each subject's baseline condition form the label-free calibration segment ({{wesad_calib}} windows per subject); these windows are never used for evaluation by any method.
+
+**MIT-BIH Arrhythmia Database** [@moody2001] contains 48 half-hour two-lead ambulatory (Holter) ECG recordings sampled at 360 Hz. Following the AAMI recommendations and the inter-patient paradigm [@dechazal2004], the four paced records are excluded, beats are grouped into the classes N (normal and bundle-branch-block beats), S (supraventricular ectopic), V (ventricular ectopic) and F (fusion), Q beats are discarded, and the remaining records are divided into DS1 (22 records, training and validation) and DS2 (22 records, test). The anomaly class is any S, V or F beat. Each beat is represented by three modalities: the lead-1 (MLII) waveform and the second-lead waveform (V1, V2, V4 or V5 depending on the record) from 0.25 s before to 0.46 s after the R peak, resampled to 180 Hz (128 samples), and a five-element RR-rhythm vector (pre-RR, post-RR, local mean RR over the previous 10 beats, mean RR since the start of the record, and post/pre ratio). The first five minutes of each record serve as the label-free calibration segment and are excluded from evaluation; unlike the WESAD baseline, this segment is not a controlled rest period and may contain abnormal beats, whose labels are never used. Table 1 summarises both datasets.
+
+{{TABLE_DATA}}
+
+**Pre-processing.** No hand-tuned filtering is applied beyond resampling with polyphase anti-alias filters; every modality is z-scored. For the baselines the z-scoring uses training-set statistics; for TinyPAD it uses the wearer's own calibration statistics followed by training-set statistics (Eq. 2). Fig. 2 shows the per-subject window counts of WESAD, the AAMI class distribution of MIT-BIH, and an example multimodal window.
+
+![Fig. 2. Datasets. Left: 30-s WESAD windows per subject (non-stress, stress and the 5-min rest calibration segment). Middle: AAMI beat classes of MIT-BIH in DS1 (training/validation) and DS2 (test), log scale. Right: an example 30-s multimodal WESAD window of subject S10 in the baseline (top) and stress (bottom) conditions.](fig2_data.png){width=100%}
+
+## 4.2 Evaluation protocol
+
+On WESAD we use **leave-one-subject-out (LOSO)** cross-validation: each of the 15 subjects is the test subject once; two of the remaining subjects (drawn with the seed) are validation subjects used for early stopping, and the other twelve are training subjects. On MIT-BIH, four DS1 records (drawn with the seed) are validation records and the other 18 DS1 records are used for training; all DS2 records are test records. Every method sees exactly the same training, validation and test windows. The main comparison is repeated with three seeds on WESAD (45 trained models per method) and five seeds on MIT-BIH. TinyPAD's design choices that concern personalisation (AdaBN, deviation stacking, score standardisation) were selected using **only the validation people** of each fold with a separate development seed (100), never the test person (Section 4.8).
+
+## 4.3 Baselines and implementation
+
+TinyPAD is compared with six methods that receive identical inputs: **RF-HCF**, a random forest (300 trees, balanced class weights) on hand-crafted statistical, slope, first-difference and spectral-band features of every channel, in the spirit of the classical WESAD and ECG feature pipelines [@schmidt2018; @fatimah2024]; **CAE**, an unsupervised convolutional auto-encoder trained on normal windows whose reconstruction error above the 95th percentile of the validation normals signals an anomaly; **EF-CNN**, an early-fusion 1-D CNN that resamples all modalities to a common length and stacks them as channels; **LF-CNN**, a late-fusion network with the same per-modality depthwise-separable encoders as TinyPAD whose embeddings are concatenated; **CNN-LSTM**, convolutional feature extraction followed by an LSTM; and **TinyTransformer**, a patch-embedding transformer with two layers of four heads, representative of recent CNN–transformer stress models [@li2023pilot]. All deep models are trained with AdamW (learning rate $10^{-3}$, weight decay $10^{-4}$), batch size 64, the class-weighted cross-entropy of Eq. (4) (the CAE with a reconstruction loss), at most 40 epochs and early stopping with a patience of 8 epochs on the validation macro-F1. All decisions use the natural threshold (logit margin 0 or probability 0.5). Table 2 lists the hyper-parameters of TinyPAD.
+
+| Component | Hyper-parameter | Value |
+|:--|:--|:-:|
+| Windows | WESAD window / stride; MIT-BIH beat span | 30 s / 5 s; −0.25 s to +0.46 s |
+| Calibration | label-free rest segment per person | first 5 min |
+| Encoders | stem kernel / depthwise kernel / widths / embedding $D$ | 7 / 7 / 16-24-32 / 32 |
+| Encoders | stem stride for $L\geq2000$, $\geq600$, otherwise | 4, 2, 1 |
+| Fusion | attention hidden size / modality dropout $p_{\mathrm{md}}$ | 16 / 0.25 (WESAD), 0.10 (MIT-BIH) |
+| Head | hidden units / outputs | 16 / 2 |
+| Training | optimiser / lr / weight decay / batch / epochs / patience | AdamW / 10⁻³ / 10⁻⁴ / 64 / 40 / 8 |
+| Cascade | stage-1 modalities (WESAD; MIT-BIH) | wrist ACC + wrist EDA/TEMP; RR rhythm |
+| Cascade | recall targets $\rho$ / sensor hold $T_h$ | 0.90–1.00 / 60 s |
+| Deployment | weight precision | int8 (per-tensor symmetric) |
+
+Table: Table 2. Hyper-parameters of TinyPAD and of the evaluation protocol.
+
+**Execution environment.** All experiments were executed on a RunPod cloud pod with an NVIDIA RTX A4000 GPU and 14 allotted vCPUs (Python 3.11, PyTorch 2.4 from the runpod/pytorch:2.4.0 image, scikit-learn), including the download and pre-processing of both datasets; the reported study comprises {{n_main_runs}} main-comparison runs ({{n_main_models}} trained models across folds and seeds) and {{n_abl_runs}} ablation runs. Latency was measured on one CPU thread of the pod with batch size 1.
+
+**Metrics.** We report accuracy, F1 of the anomaly class, sensitivity (Se, recall of anomalies), specificity (Sp), positive predictive value (+P), balanced accuracy and the area under the ROC curve (AUC). On WESAD all metrics are computed per left-out subject and averaged over subjects and then over seeds, which weights every person equally; on MIT-BIH they are computed over all DS2 beats, and the class-wise sensitivities for S and V beats are also given because they are customary for the inter-patient benchmark [@li2022; @fatimah2024]. Significance is assessed with the Wilcoxon signed-rank test over the 15 subjects (WESAD, seed-averaged) and a paired t-test over the five seeds (MIT-BIH); because each dataset involves six comparisons with TinyPAD, Holm-corrected p-values are also reported.

@@ -1,0 +1,160 @@
+Generating record list for: 100
+Generating record list for: 101
+Generating record list for: 102
+Generating record list for: 103
+Generating record list for: 104
+Generating record list for: 105
+Generating record list for: 106
+Generating record list for: 107
+Generating record list for: 108
+Generating record list for: 109
+Generating record list for: 111
+Generating record list for: 112
+Generating record list for: 113
+Generating record list for: 114
+Generating record list for: 115
+Generating record list for: 116
+Generating record list for: 117
+Generating record list for: 118
+Generating record list for: 119
+Generating record list for: 121
+Generating record list for: 122
+Generating record list for: 123
+Generating record list for: 124
+Generating record list for: 200
+Generating record list for: 201
+Generating record list for: 202
+Generating record list for: 203
+Generating record list for: 205
+Generating record list for: 207
+Generating record list for: 208
+Generating record list for: 209
+Generating record list for: 210
+Generating record list for: 212
+Generating record list for: 213
+Generating record list for: 214
+Generating record list for: 215
+Generating record list for: 217
+Generating record list for: 219
+Generating record list for: 220
+Generating record list for: 221
+Generating record list for: 222
+Generating record list for: 223
+Generating record list for: 228
+Generating record list for: 230
+Generating record list for: 231
+Generating record list for: 232
+Generating record list for: 233
+Generating record list for: 234
+Generating list of all files for: 100
+Generating list of all files for: 101
+Generating list of all files for: 102
+Generating list of all files for: 103
+Generating list of all files for: 104
+Generating list of all files for: 105
+Generating list of all files for: 106
+Generating list of all files for: 107
+Generating list of all files for: 108
+Generating list of all files for: 109
+Generating list of all files for: 111
+Generating list of all files for: 112
+Generating list of all files for: 113
+Generating list of all files for: 114
+Generating list of all files for: 115
+Generating list of all files for: 116
+Generating list of all files for: 117
+Generating list of all files for: 118
+Generating list of all files for: 119
+Generating list of all files for: 121
+Generating list of all files for: 122
+Generating list of all files for: 123
+Generating list of all files for: 124
+Generating list of all files for: 200
+Generating list of all files for: 201
+Generating list of all files for: 202
+Generating list of all files for: 203
+Generating list of all files for: 205
+Generating list of all files for: 207
+Generating list of all files for: 208
+Generating list of all files for: 209
+Generating list of all files for: 210
+Generating list of all files for: 212
+Generating list of all files for: 213
+Generating list of all files for: 214
+Generating list of all files for: 215
+Generating list of all files for: 217
+Generating list of all files for: 219
+Generating list of all files for: 220
+Generating list of all files for: 221
+Generating list of all files for: 222
+Generating list of all files for: 223
+Generating list of all files for: 228
+Generating list of all files for: 230
+Generating list of all files for: 231
+Generating list of all files for: 232
+Generating list of all files for: 233
+Generating list of all files for: 234
+Created local base download directory: raw/mitdb
+Downloading files...
+Finished downloading files
+MIT-BIH 101 1861
+MIT-BIH 106 3886
+MIT-BIH 108 5647
+MIT-BIH 109 8177
+MIT-BIH 112 10714
+MIT-BIH 114 12591
+MIT-BIH 115 14542
+MIT-BIH 116 16952
+MIT-BIH 118 19228
+MIT-BIH 119 21213
+MIT-BIH 122 23687
+MIT-BIH 124 25304
+MIT-BIH 201 27265
+MIT-BIH 203 30239
+MIT-BIH 205 32893
+MIT-BIH 207 34751
+MIT-BIH 208 37702
+MIT-BIH 209 40705
+MIT-BIH 215 44066
+MIT-BIH 220 46112
+MIT-BIH 223 48715
+MIT-BIH 230 50969
+MIT-BIH 100 53240
+MIT-BIH 103 55322
+MIT-BIH 105 57887
+MIT-BIH 111 60009
+MIT-BIH 113 61802
+MIT-BIH 117 63335
+MIT-BIH 121 65196
+MIT-BIH 123 66712
+MIT-BIH 200 69311
+MIT-BIH 202 71445
+MIT-BIH 210 74093
+MIT-BIH 212 76839
+MIT-BIH 213 80088
+MIT-BIH 214 82346
+MIT-BIH 219 84498
+MIT-BIH 221 86923
+MIT-BIH 222 89404
+MIT-BIH 228 91455
+MIT-BIH 231 93024
+MIT-BIH 232 94802
+MIT-BIH 233 97879
+MIT-BIH 234 100630
+MIT-BIH done 100630 beats; abnormal rate 0.10521713206797177 {'DS1': {'N': 45824, 'S': 943, 'V': 3788, 'F': 414}, 'DS2': {'N': 44218, 'S': 1836, 'V': 3219, 'F': 388}}
+WESAD WESAD/S10/S10.pkl windows so far 443
+WESAD WESAD/S11/S11.pkl windows so far 875
+WESAD WESAD/S13/S13.pkl windows so far 1306
+WESAD WESAD/S14/S14.pkl windows so far 1737
+WESAD WESAD/S15/S15.pkl windows so far 2169
+WESAD WESAD/S16/S16.pkl windows so far 2598
+WESAD WESAD/S17/S17.pkl windows so far 3040
+WESAD WESAD/S2/S2.pkl windows so far 3449
+WESAD WESAD/S3/S3.pkl windows so far 3866
+WESAD WESAD/S4/S4.pkl windows so far 4285
+WESAD WESAD/S5/S5.pkl windows so far 4715
+WESAD WESAD/S6/S6.pkl windows so far 5142
+WESAD WESAD/S7/S7.pkl windows so far 5567
+WESAD WESAD/S8/S8.pkl windows so far 5996
+WESAD WESAD/S9/S9.pkl windows so far 6421
+WESAD done 6421 windows; stress rate 0.2994860613611587

@@ -1,0 +1,1452 @@
+{
+ "10.3390/electronics14040687": {
+  "doi": "10.3390/electronics14040687",
+  "title": "Deployment of TinyML-Based Stress Classification Using Computational Constrained Health Wearable",
+  "authors": [
+   [
+    "Asma",
+    "Abu-Samah"
+   ],
+   [
+    "Dalilah",
+    "Ghaffa"
+   ],
+   [
+    "Nor Fadzilah",
+    "Abdullah"
+   ],
+   [
+    "Noorfazila",
+    "Kamal"
+   ],
+   [
+    "Rosdiadee",
+    "Nordin"
+   ],
+   [
+    "Jennifer C.",
+    "Dela Cruz"
+   ],
+   [
+    "Glenn V.",
+    "Magwili"
+   ],
+   [
+    "Reginald Juan",
+    "Mercado"
+   ]
+  ],
+  "container": "Electronics",
+  "volume": "14",
+  "issue": "4",
+  "page": "687",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Stress has become a common mental health issue in modern society, causing individuals to experience acute behavioral changes. Exposure to prolonged stress without proper prevention and treatment may cause severe damage to one’s physiological and psychological health. Researchers around the world have been working to find and create solutions for early stress detection using machine learning (ML). This paper investigates the possibility of utilizing Tiny Machine Learning (TinyML) in developing a wearable device, comparable to a smartwatch, that is equipped with both physiological and psychological data detection system to enable edge computing and give immediate feedback for stress prediction. The main challenge of this study was to fit a trained ML model into the microcontroller’s limited memory without compromising the model’s accuracy. A TinyML-based framework using a Raspberry Pi Pico RP2040 on a customized board equipped with several health sensors was proposed to predict stress levels by utilizing accelerations, body temperature, heart rate, and electrodermal activity from a public health dataset. Moreover, a few selected machine learning models underwent hyperparameter tuning before a porting library was used to translate them from Python to C/C++ for deployment. This approach led to an optimized XGBoost model with 86.0% accuracy and only 1.12 MB in size, hence perfectly fitting into the 2 MB constraint of RP2040. The prediction of stress on the edge device was then tested and validated using a separate sub-dataset. This trained model on TinyML can also be used to obtain an immediate reading from the calibrated health sensors for real-time stress predictions."
+ },
+ "10.1109/access.2024.3496791": {
+  "doi": "10.1109/access.2024.3496791",
+  "title": "Expanding Applications of TinyML in Versatile Assistive Devices: From Navigation Assistance to Health Monitoring System Using Optimized NASNet-XGBoost Transfer Learning",
+  "authors": [
+   [
+    "Sreenu",
+    "Ponnada"
+   ],
+   [
+    "Tan",
+    "Kuan Tak"
+   ],
+   [
+    "Pravin R.",
+    "Kshirsagar"
+   ],
+   [
+    "P.",
+    "Srinivasa Rao"
+   ],
+   [
+    "Abhinav",
+    "Dayal"
+   ]
+  ],
+  "container": "IEEE Access",
+  "volume": "12",
+  "issue": null,
+  "page": "168328-168338",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "The healthcare sector receives a considerable amount of unprocessed data from wearable and portable devices. However, traditional cloud-based models used to handle this type of data can pose risks such as exposing sensitive patient data to a network environment and increasing latency due to data storage and time consumption. In response to these issues, an alternative strategy named TinyML was put forth by the scientific community to foster safe and autonomous models capable of gathering and processing data without the need for network exposure. To address these concerns more effectively, we put forward a versatile TinyML model specifically tailored for health monitoring systems. This model uses enhanced NASNet-XGBoost-based transfer learning methodology to adapt to various types of diseases using appropriate healthcare data. The process begins by pre-processing raw health signals collected from patients using a combination of a wavelet soft threshold method and empirical wavelet transform-spectrum adaptive segmentation (EWT-SAS). A Tyrannosaurus-based NASNet model is then used to extract meaningful features from these pre-processed signals. Once the features have been extracted, they are entered into an XGBoost model which can accurately predict various types of diseases based on the given data. This particular approach achieved an impressive 95.4% average accuracy, 93.6% positive predictive value, 94.7% hit rate, and 96.3% selectivity. When compared to traditional models, this TinyML model shows a significant improvement in performance metrics, demonstrating increased effectiveness and accuracy in predicting various diseases."
+ },
+ "10.32604/cmc.2023.031663": {
+  "doi": "10.32604/cmc.2023.031663",
+  "title": "TinyML-Based Classification in an ECG Monitoring Embedded System",
+  "authors": [
+   [
+    "Eunchan",
+    "Kim"
+   ],
+   [
+    "Jaehyuk",
+    "Kim"
+   ],
+   [
+    "Juyoung",
+    "Park"
+   ],
+   [
+    "Haneul",
+    "Ko"
+   ],
+   [
+    "Yeunwoong",
+    "Kyung"
+   ]
+  ],
+  "container": "Computers, Materials &amp; Continua",
+  "volume": "75",
+  "issue": "1",
+  "page": "1751-1764",
+  "article_number": null,
+  "year": 2023,
+  "crossref": "ok",
+  "abstract": "Recently, the development of the Internet of Things (IoT) has enabled continuous and personal electrocardiogram (ECG) monitoring. In the ECG monitoring system, classification plays an important role because it can select useful data (i.e., reduce the size of the dataset) and identify abnormal data that can be used to detect the clinical diagnosis and guide further treatment. Since the classification requires computing capability, the ECG data are usually delivered to the gateway or the server where the classification is performed based on its computing resource. However, real-time ECG data transmission continuously consumes battery and network resources, which are expensive and limited. To mitigate this problem, this paper proposes a tiny machine learning (TinyML)-based classification (i.e., TinyCES), where the ECG monitoring device performs the classification by itself based on the machine-learning model, which can reduce the memory and the network resource usages for the classification. To demonstrate the feasibility, after we configure the convolutional neural networks (CNN)-based model using ECG data from the Massachusetts Institute of Technology (MIT)-Beth Israel Hospital (BIH) arrhythmia and the Physikalisch Technische Bundesanstalt (PTB) diagnostic ECG databases, TinyCES is validated using the TinyML-supported Arduino prototype. The performance results show that TinyCES can have an approximately 97% detection ratio, which means that it has great potential to be a lightweight and resource-efficient ECG monitoring system."
+ },
+ "10.1109/access.2021.3085502": {
+  "doi": "10.1109/access.2021.3085502",
+  "title": "A Review on Mental Stress Detection Using Wearable Sensors and Machine Learning Techniques",
+  "authors": [
+   [
+    "Shruti",
+    "Gedam"
+   ],
+   [
+    "Sanchita",
+    "Paul"
+   ]
+  ],
+  "container": "IEEE Access",
+  "volume": "9",
+  "issue": null,
+  "page": "84045-84066",
+  "article_number": null,
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": "Stress is an escalated psycho-physiological state of the human body emerging in response to a challenging event or a demanding condition. Environmental factors that trigger stress are called stressors. In case of prolonged exposure to multiple stressors impacting simultaneously, a person's mental and physical health can be adversely affected which can further lead to chronic health issues. To prevent stress-related issues, it is necessary to detect them in the nascent stages which are possible only by continuous monitoring of stress. Wearable devices promise real-time and continuous data collection, which helps in personal stress monitoring. In this paper, a comprehensive review has been presented, which focuses on stress detection using wearable sensors and applied machine learning techniques. This paper investigates the stress detection approaches adopted in accordance with the sensory devices such as wearable sensors, Electrocardiogram (ECG), Electroencephalography (EEG), and Photoplethysmography (PPG), and also depending on various environments like during driving, studying, and working. The stressors, techniques, results, advantages, limitations, and issues for each study are highlighted and expected to provide a path for future research studies. Also, a multimodal stress detection system using a wearable sensor-based deep learning technique has been proposed at the end."
+ },
+ "10.3390/s21041030": {
+  "doi": "10.3390/s21041030",
+  "title": "Pain and Stress Detection Using Wearable Sensors and Devices—A Review",
+  "authors": [
+   [
+    "Jerry",
+    "Chen"
+   ],
+   [
+    "Maysam",
+    "Abbod"
+   ],
+   [
+    "Jiann-Shing",
+    "Shieh"
+   ]
+  ],
+  "container": "Sensors",
+  "volume": "21",
+  "issue": "4",
+  "page": "1030",
+  "article_number": null,
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": "Pain is a subjective feeling; it is a sensation that every human being must have experienced all their life. Yet, its mechanism and the way to immune to it is still a question to be answered. This review presents the mechanism and correlation of pain and stress, their assessment and detection approach with medical devices and wearable sensors. Various physiological signals (i.e., heart activity, brain activity, muscle activity, electrodermal activity, respiratory, blood volume pulse, skin temperature) and behavioral signals are organized for wearables sensors detection. By reviewing the wearable sensors used in the healthcare domain, we hope to find a way for wearable healthcare-monitoring system to be applied on pain and stress detection. Since pain leads to multiple consequences or symptoms such as muscle tension and depression that are stress related, there is a chance to find a new approach for chronic pain detection using daily life sensors or devices. Then by integrating modern computing techniques, there is a chance to handle pain and stress management issue."
+ },
+ "10.3390/s21082873": {
+  "doi": "10.3390/s21082873",
+  "title": "HRV Features as Viable Physiological Markers for Stress Detection Using Wearable Devices",
+  "authors": [
+   [
+    "Kayisan M.",
+    "Dalmeida"
+   ],
+   [
+    "Giovanni L.",
+    "Masala"
+   ]
+  ],
+  "container": "Sensors",
+  "volume": "21",
+  "issue": "8",
+  "page": "2873",
+  "article_number": null,
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": "Stress has been identified as one of the major causes of automobile crashes which then lead to high rates of fatalities and injuries each year. Stress can be measured via physiological measurements and in this study the focus will be based on the features that can be extracted by common wearable devices. Hence, the study will be mainly focusing on heart rate variability (HRV). This study is aimed at investigating the role of HRV-derived features as stress markers. This is achieved by developing a good predictive model that can accurately classify stress levels from ECG-derived HRV features, obtained from automobile drivers, by testing different machine learning methodologies such as K-Nearest Neighbor (KNN), Support Vector Machines (SVM), Multilayer Perceptron (MLP), Random Forest (RF) and Gradient Boosting (GB). Moreover, the models obtained with highest predictive power will be used as reference for the development of a machine learning model that would be used to classify stress from HRV features derived from heart rate measurements obtained from wearable devices. We demonstrate that HRV features constitute good markers for stress detection as the best machine learning model developed achieved a Recall of 80%. Furthermore, this study indicates that HRV metrics such as the Average of normal-to-normal (NN) intervals (AVNN), Standard deviation of the average NN intervals (SDNN) and the Root mean square differences of successive NN intervals (RMSSD) were important features for stress detection. The proposed method can be also used on all applications in which is important to monitor the stress levels in a non-invasive manner, e.g., in physical rehabilitation, anxiety relief or mental wellbeing."
+ },
+ "10.1109/access.2024.3373010": {
+  "doi": "10.1109/access.2024.3373010",
+  "title": "Review of Stress Detection Methods Using Wearable Sensors",
+  "authors": [
+   [
+    "Georgios",
+    "Taskasaplidis"
+   ],
+   [
+    "Dimitris A.",
+    "Fotiadis"
+   ],
+   [
+    "Panagiotis D.",
+    "Bamidis"
+   ]
+  ],
+  "container": "IEEE Access",
+  "volume": "12",
+  "issue": null,
+  "page": "38219-38246",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "Stress is a significant factor that affects well-being and health. Factors that trigger stress include work, social interactions, and economic and environmental factors. Stress may cause lower labor productivity, physical and mental health problems, and malfunctions in all social aspects of life. Psychosomatic health can be improved if proper stress detection mechanisms are present in daily life and stress reduction methods can occur. Wearable sensors are currently used in many commercial and scientific applications in a non-destructive or annoying manner. These devices are used in daily routines. In this paper, a comprehensive review of the latest literature and developments in stress detection methods is presented through extensive and holistic research on stress response, both at the level of the autonomic nervous system (ANS) and hypothalamic-pituitary-adrenal axis (HPA). This study focused on the exploitation of various methods, technologies, and data analysis systems to understand stress in a multifaceted and comprehensive manner. Various stress-related factors are presented along with biological signal measurements, and physical secretions or biomarkers are primarily used for stress detection. Furthermore, the manner in which body movement and posture measurements may be related to stress was investigated, together with speech and hand tremors. Various stress-detection technologies have been analyzed, and existing data analysis methods that can be applied to stress-detection systems have been highlighted. This review serves as a reference and guideline for exploring this area of interest, identifying research opportunities, and offering ideas, options, and suggestions for optimized solutions regarding future applications and research."
+ },
+ "10.3389/fcomp.2024.1478851": {
+  "doi": "10.3389/fcomp.2024.1478851",
+  "title": "Detection and monitoring of stress using wearables: a systematic review",
+  "authors": [
+   [
+    "Anuja",
+    "Pinge"
+   ],
+   [
+    "Vinaya",
+    "Gad"
+   ],
+   [
+    "Dheryta",
+    "Jaisighani"
+   ],
+   [
+    "Surjya",
+    "Ghosh"
+   ],
+   [
+    "Sougata",
+    "Sen"
+   ]
+  ],
+  "container": "Frontiers in Computer Science",
+  "volume": "6",
+  "issue": null,
+  "page": null,
+  "article_number": "1478851",
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "Over the last few years, wearable devices have witnessed immense changes in terms of sensing capabilities. Wearable devices, with their ever-increasing number of sensors, have been instrumental in monitoring human activities, health-related indicators, and overall wellness. One health-related area that has rapidly adopted wearable devices is the mental health monitoring and well-being area, which covers problems such as psychological distress. The continuous monitoring capability of wearable devices allows the detection and monitoring of stress, thus enabling early detection of mental health problems. In this paper, we present a systematic review of the different types of sensors and wearable devices used by researchers to detect and monitor stress in individuals. We identify and detail the tasks such as data collection, data pre-processing, features computation, and training of the model explored by such research works. We review each step involved in stress detection and monitoring. We also discuss the scope and opportunities for further research that deals with the management of stress once it is detected."
+ },
+ "10.1016/j.compbiomed.2024.108918": {
+  "doi": "10.1016/j.compbiomed.2024.108918",
+  "title": "A machine-learning approach for stress detection using wearable sensors in free-living environments",
+  "authors": [
+   [
+    "Mohamed",
+    "Abd Al-Alim"
+   ],
+   [
+    "Roaa",
+    "Mubarak"
+   ],
+   [
+    "Nancy",
+    "M. Salem"
+   ],
+   [
+    "Ibrahim",
+    "Sadek"
+   ]
+  ],
+  "container": "Computers in Biology and Medicine",
+  "volume": "179",
+  "issue": null,
+  "page": "108918",
+  "article_number": "108918",
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.3390/s24103221": {
+  "doi": "10.3390/s24103221",
+  "title": "Personalized Stress Detection Using Biosignals from Wearables: A Scoping Review",
+  "authors": [
+   [
+    "Marco",
+    "Bolpagni"
+   ],
+   [
+    "Susanna",
+    "Pardini"
+   ],
+   [
+    "Marco",
+    "Dianti"
+   ],
+   [
+    "Silvia",
+    "Gabrielli"
+   ]
+  ],
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "10",
+  "page": "3221",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "Stress is a natural yet potentially harmful aspect of human life, necessitating effective management, particularly during overwhelming experiences. This paper presents a scoping review of personalized stress detection models using wearable technology. Employing the PRISMA-ScR framework for rigorous methodological structuring, we systematically analyzed literature from key databases including Scopus, IEEE Xplore, and PubMed. Our focus was on biosignals, AI methodologies, datasets, wearable devices, and real-world implementation challenges. The review presents an overview of stress and its biological mechanisms, details the methodology for the literature search, and synthesizes the findings. It shows that biosignals, especially EDA and PPG, are frequently utilized for stress detection and demonstrate potential reliability in multimodal settings. Evidence for a trend towards deep learning models was found, although the limited comparison with traditional methods calls for further research. Concerns arise regarding the representativeness of datasets and practical challenges in deploying wearable technologies, which include issues related to data quality and privacy. Future research should aim to develop comprehensive datasets and explore AI techniques that are not only accurate but also computationally efficient and user-centric, thereby closing the gap between theoretical models and practical applications to improve the effectiveness of stress detection systems in real scenarios."
+ },
+ "10.1109/jiot.2023.3265768": {
+  "doi": "10.1109/jiot.2023.3265768",
+  "title": "Stress Detection Using Context-Aware Sensor Fusion From Wearable Devices",
+  "authors": [
+   [
+    "Nafiul",
+    "Rashid"
+   ],
+   [
+    "Trier",
+    "Mortlock"
+   ],
+   [
+    "Mohammad Abdullah Al",
+    "Faruque"
+   ]
+  ],
+  "container": "IEEE Internet of Things Journal",
+  "volume": "10",
+  "issue": "16",
+  "page": "14114-14127",
+  "article_number": null,
+  "year": 2023,
+  "crossref": "ok",
+  "abstract": "Wearable medical technology has become increasingly popular in recent years. One function of wearable health devices is stress detection, which relies on sensor inputs to determine a patient’s mental state. This continuous, real-time monitoring can provide healthcare professionals with vital physiological data and enhance the quality of patient care. Current methods of stress detection lack: (i) robustness—wearable health sensors contain high levels of measurement noise that degrades performance, and (ii) adaptation—static architectures fail to adapt to changing contexts in sensing conditions. We propose to address these deficiencies with SELF-CARE, a generalized selective sensor fusion method of stress detection that employs novel techniques of context identification and ensemble machine learning. SELF-CARE uses a learning-based classifier to process sensor features and model the environmental variations in sensing conditions known as the noise context. SELF-CARE uses noise context to selectively fuse different sensor combinations across an ensemble of models to perform robust stress classification. Our findings suggest that for wrist-worn devices, sensors that measure motion are most suitable to understand noise context, while for chest-worn devices, the most suitable sensors are those that detect muscle contraction. We demonstrate SELF-CARE’s state-of-the-art performance on the WESAD dataset. Using wrist-based sensors, SELF-CARE achieves 86.34% and 94.12% accuracy for the 3-class and 2-class stress classification problems, respectively. For chest-based wearable sensors, SELF-CARE achieves 86.19% (3-class) and 93.68% (2-class) classification accuracy. This work demonstrates the benefits of utilizing selective, context-aware sensor fusion in mobile health sensing that can be applied broadly to Internet of Things applications."
+ },
+ "10.3390/electronics14040723": {
+  "doi": "10.3390/electronics14040723",
+  "title": "Emotion Recognition Using a Siamese Model and a Late Fusion-Based Multimodal Method in the WESAD Dataset with Hardware Accelerators",
+  "authors": [
+   [
+    "Hyun-Sik",
+    "Choi"
+   ]
+  ],
+  "container": "Electronics",
+  "volume": "14",
+  "issue": "4",
+  "page": "723",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Emotion recognition, which includes stress analysis, is a critical research topic. In particular, emotion recognition using wearable applications that offer rapid feedback can significantly assist in emotion regulation. A key dataset for this purpose is the wearable stress and affect detection (WESAD) dataset, which is well-suited for wearable environments. This study aims to evaluate the accuracy and processing time of the proposed neural network using the WESAD dataset. However, data collected in wearable environments often have limitations in terms of their accuracy and channel count, making classification challenging. To address this issue, this study utilizes only wrist-measured blood volume pulse (BVP) data measured by photo-plethysmography (PPG) and electro-dermal activity (EDA) data, classifying them through a late fusion-based multimodal method. For accurate classification, the BVP data are preprocessed using the empirical mode decomposition (EMD) method, and a Siamese model is employed for learning on small datasets, with an additional structure of dense layers for detailed classification. The Siamese network generates a similarity score, which is then fed into a dense layer to classify multiple classes. Meta-classes are used to compute pairwise similarities, ultimately classifying the data into one of four emotional states: neutral, stress, amusement, and meditation. The proposed multitasking model simultaneously trains the Siamese network and multi-classifier, achieving an accuracy of 99.8% in classifying four emotion states in the WESAD dataset. Moreover, the model is designed to operate with minimal hardware resources, making it easy to implement using hardware accelerators. This study demonstrates the applicability of neural network-based wearable systems in the field of emotion recognition."
+ },
+ "10.3389/fbioe.2025.1659002": {
+  "doi": "10.3389/fbioe.2025.1659002",
+  "title": "A cross-domain framework for emotion and stress detection using WESAD, SCIENTISST-MOVE, and DREAMER datasets",
+  "authors": [
+   [
+    "Ahmad",
+    "Almadhor"
+   ],
+   [
+    "Stephen",
+    "Ojo"
+   ],
+   [
+    "Thomas I.",
+    "Nathaniel"
+   ],
+   [
+    "Kingsley",
+    "Ukpong"
+   ],
+   [
+    "Shtwai",
+    "Alsubai"
+   ],
+   [
+    "Abdullah",
+    "Al Hejaili"
+   ]
+  ],
+  "container": "Frontiers in Bioengineering and Biotechnology",
+  "volume": "13",
+  "issue": null,
+  "page": null,
+  "article_number": "1659002",
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Introduction Emotional and stress-related disorders pose a growing threat to global mental health, emphasizing the critical need for accurate, robust, and interpretable emotion recognition systems. Despite advances in affective computing, existing models often lack generalizability across diverse physiological and behavioral datasets, limiting their practical deployment. Methods This study presents a dual deep learning-based framework for mental health monitoring and activity monitoring. The first approach introduces a framework for stress classification based on a 1D-CNN trained on the WESAD dataset. This model is then fine-tuned using the ScientISST-MOVE dataset to detect daily life activities based on motion signals, and it is used as transfer learning for a downstream task. An explainable AI technique is used to interpret the model’s predictions, while class imbalance is addressed using focal loss and class weighting. The second approach employs a temporal conformer architecture combining CNN and transformer components to model temporal dependencies in continuous affective ratings of emotional states based on valence, arousal, and dominance (VAD) using the DREAMER dataset. This method incorporates feature engineering techniques and models temporal dependencies in ECG signals. Results The deep learning classifier trained on WESAD biosignal data achieved 98% accuracy across three classes, demonstrating highly reliable stress classification. The transfer learning model, evaluated on the ScientISST-MOVE dataset, achieved an overall accuracy of 82% across four activity states, with good precision and recall for high-support classes. However, the explanations produced by Grad-CAM appear uninformative and do not clearly indicate which parts of the signals influence the prediction. The conformer model achieved an R 2 score of 0.78 and a rounded accuracy of 87.59% across all three dimensions, highlighting its robustness in multi-dimensional emotion prediction. Discussion The framework demonstrates strong performance, interpretability, and real-time applicability in personalized affective computing."
+ },
+ "10.1016/j.compbiomed.2024.109217": {
+  "doi": "10.1016/j.compbiomed.2024.109217",
+  "title": "Shuffled ECA-Net for stress detection from multimodal wearable sensor data",
+  "authors": [
+   [
+    "Namho",
+    "Kim"
+   ],
+   [
+    "Seongjae",
+    "Lee"
+   ],
+   [
+    "Junho",
+    "Kim"
+   ],
+   [
+    "So Yoon",
+    "Choi"
+   ],
+   [
+    "Sung-Min",
+    "Park"
+   ]
+  ],
+  "container": "Computers in Biology and Medicine",
+  "volume": "183",
+  "issue": null,
+  "page": "109217",
+  "article_number": "109217",
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.3390/s24247896": {
+  "doi": "10.3390/s24247896",
+  "title": "Research on a Lightweight Arrhythmia Classification Model Based on Knowledge Distillation for Wearable Single-Lead ECG Monitoring Systems",
+  "authors": [
+   [
+    "Xiang",
+    "An"
+   ],
+   [
+    "Shiwen",
+    "Shi"
+   ],
+   [
+    "Qian",
+    "Wang"
+   ],
+   [
+    "Yansuo",
+    "Yu"
+   ],
+   [
+    "Qiang",
+    "Liu"
+   ]
+  ],
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "24",
+  "page": "7896",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "Arrhythmias are among the diseases with high mortality rates worldwide, causing millions of deaths each year. This underscores the importance of real-time electrocardiogram (ECG) monitoring for timely heart disease diagnosis and intervention. Deep learning models, trained on ECG signals across twelve or more leads, are the predominant approach for automated arrhythmia detection in the AI-assisted medical field. While these multi-lead ECG-based models perform well in automatic arrhythmia detection, their complexity often restricts their use on resource-constrained devices. In this paper, we propose an efficient, lightweight arrhythmia classification model using a knowledge distillation technique to train a student model from a teacher model, tailored for embedded intelligence in wearable devices. The results show that the student model achieves 96.32% accuracy, which is comparable to the teacher model, with a remarkable compression ratio that is 1242.58 times smaller, outperforming other lightweight models. Enabled by the proposed model, we developed a wearable ECG monitoring system based on the STM32F429 Discovery kit and ADS1292R chip, achieving real-time arrhythmia detection on small wearable devices."
+ },
+ "10.1109/embc48229.2022.9871156": {
+  "doi": "10.1109/embc48229.2022.9871156",
+  "title": "Lightweight Convolutional Neural Network for Real-Time Arrhythmia Classification on Low-Power Wearable Electrocardiograph",
+  "authors": [
+   [
+    "Sangkyu",
+    "Kim"
+   ],
+   [
+    "Sangil",
+    "Chon"
+   ],
+   [
+    "Jin-Kook",
+    "Kim"
+   ],
+   [
+    "Joomin",
+    "Kim"
+   ],
+   [
+    "Yeongjoon",
+    "Gil"
+   ],
+   [
+    "Sunghoon",
+    "Jung"
+   ]
+  ],
+  "container": "2022 44th Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)",
+  "volume": null,
+  "issue": null,
+  "page": "1915-1918",
+  "article_number": null,
+  "year": 2022,
+  "crossref": "ok",
+  "abstract": "In this study, a lightweight CNN-based electrocardiogram (ECG) classification model is implemented to operate it on a wearable device for real-time arrhythmia detection by efficiently reducing the number of parameters of the model. Ten second-windowed ECGs from three different public ECG databases were used to learn and classify them into four classes: normal sinus rhythm, atrial fibrillation, atrial premature contraction, and ventricular premature contraction. The model implemented in the workstation environment was converted using the TensorFlow Lite framework and then imported into an ARM Cortex-M4 architecture-based nRF52840 microprocessor. The proposed model shows high performance (97.7% accuracy and 97.4% F1 score) with reasonable execution time: 298ms and current consumption: 3.55mA at optimized for speed and execution time: 480ms and current consumption: 3.82mA at optimized for size, respectively."
+ },
+ "10.1016/j.cmpb.2021.106582": {
+  "doi": "10.1016/j.cmpb.2021.106582",
+  "title": "Inter-patient arrhythmia classification with improved deep residual convolutional neural network",
+  "authors": [
+   [
+    "Yuanlu",
+    "Li"
+   ],
+   [
+    "Renfei",
+    "Qian"
+   ],
+   [
+    "Kun",
+    "Li"
+   ]
+  ],
+  "container": "Computer Methods and Programs in Biomedicine",
+  "volume": "214",
+  "issue": null,
+  "page": "106582",
+  "article_number": "106582",
+  "year": 2022,
+  "crossref": "ok",
+  "abstract": "BACKGROUND AND OBJECTIVE: Early detection of arrhythmias has become critical due to the increased mortality from cardiovascular disease, and ECG is an effective tool for diagnosing cardiovascular disease and detecting arrhythmias. Classification based on ECG signal segments is more suitable for clinical application. METHODS: An improved deep residual convolutional neural network is proposed to classify arrhythmias automatically. Firstly, the overlapping segmentation method is used to segment the ECG signals in the MIT-BIH database into segments of 5 seconds in length to overcome the imbalance between classes, and these segments of the ECG signals are re-labeled. Then the discrete wavelet transform (DWT) is used to denoise these segments and the improved deep residual convolutional neural network is used for arrhythmia classification. In addition, the focal loss function is used to overcome the imbalanced classification difficulty between classes. RESULTS: The proposed method gives 94.54% sensitivity, 93.33% positive predictivity, and 80.80% specificity for normal segments. For the supraventricular ectopic segment, the proposed method gives 35.22% sensitivity, 65.88% positive predictivity, and 98.83% specificity. For the ventricular ectopic segment, the proposed method gives 88.35% sensitivity, 79.86% positive predictivity, and 94.92% specificity. CONCLUSION: The results of this study indicate that the proposed improved deep residual convolutional neural network model trained by the training set obtained by using the overlapping segmentation method is comparable to a classical method and three state-of-art methods. In addition, the classification performance of the network model trained by focal loss as the loss function is further improved."
+ },
+ "10.1016/j.cmpb.2021.105948": {
+  "doi": "10.1016/j.cmpb.2021.105948",
+  "title": "Arrhythmia classification from single-lead ECG signals using the inter-patient paradigm",
+  "authors": [
+   [
+    "Felipe Meneguitti",
+    "Dias"
+   ],
+   [
+    "Henrique L.M.",
+    "Monteiro"
+   ],
+   [
+    "Thales Wulfert",
+    "Cabral"
+   ],
+   [
+    "Rayen",
+    "Naji"
+   ],
+   [
+    "Michael",
+    "Kuehni"
+   ],
+   [
+    "Eduardo José da S.",
+    "Luz"
+   ]
+  ],
+  "container": "Computer Methods and Programs in Biomedicine",
+  "volume": "202",
+  "issue": null,
+  "page": "105948",
+  "article_number": "105948",
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.1016/j.neucom.2021.04.104": {
+  "doi": "10.1016/j.neucom.2021.04.104",
+  "title": "Inter-patient ECG arrhythmia heartbeat classification based on unsupervised domain adaptation",
+  "authors": [
+   [
+    "Guijin",
+    "Wang"
+   ],
+   [
+    "Ming",
+    "Chen"
+   ],
+   [
+    "Zijian",
+    "Ding"
+   ],
+   [
+    "Jiawei",
+    "Li"
+   ],
+   [
+    "Huazhong",
+    "Yang"
+   ],
+   [
+    "Ping",
+    "Zhang"
+   ]
+  ],
+  "container": "Neurocomputing",
+  "volume": "454",
+  "issue": null,
+  "page": "339-349",
+  "article_number": null,
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.1016/j.bspc.2023.105271": {
+  "doi": "10.1016/j.bspc.2023.105271",
+  "title": "A transformer model blended with CNN and denoising autoencoder for inter-patient ECG arrhythmia classification",
+  "authors": [
+   [
+    "Yong",
+    "Xia"
+   ],
+   [
+    "Yueqi",
+    "Xiong"
+   ],
+   [
+    "Kuanquan",
+    "Wang"
+   ]
+  ],
+  "container": "Biomedical Signal Processing and Control",
+  "volume": "86",
+  "issue": null,
+  "page": "105271",
+  "article_number": "105271",
+  "year": 2023,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.1016/j.bspc.2023.105789": {
+  "doi": "10.1016/j.bspc.2023.105789",
+  "title": "Inter-patient ECG arrhythmia heartbeat classification network based on multiscale convolution and FCBA",
+  "authors": [
+   [
+    "Fei-yan",
+    "Zhou"
+   ],
+   [
+    "Yu-hao",
+    "Sun"
+   ],
+   [
+    "Ya-wen",
+    "Wang"
+   ]
+  ],
+  "container": "Biomedical Signal Processing and Control",
+  "volume": "90",
+  "issue": null,
+  "page": "105789",
+  "article_number": "105789",
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.1016/j.cmpb.2023.107560": {
+  "doi": "10.1016/j.cmpb.2023.107560",
+  "title": "Automated inter-patient arrhythmia classification with dual attention neural network",
+  "authors": [
+   [
+    "He",
+    "Lyu"
+   ],
+   [
+    "Xiangkui",
+    "Li"
+   ],
+   [
+    "Jian",
+    "Zhang"
+   ],
+   [
+    "Chenchen",
+    "Zhou"
+   ],
+   [
+    "Xuezhi",
+    "Tang"
+   ],
+   [
+    "Fanxin",
+    "Xu"
+   ],
+   [
+    "Ye",
+    "Yang"
+   ],
+   [
+    "Qinzhen",
+    "Huang"
+   ],
+   [
+    "Wei",
+    "Xiang"
+   ],
+   [
+    "Dong",
+    "Li"
+   ]
+  ],
+  "container": "Computer Methods and Programs in Biomedicine",
+  "volume": "236",
+  "issue": null,
+  "page": "107560",
+  "article_number": "107560",
+  "year": 2023,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.1109/access.2024.3469640": {
+  "doi": "10.1109/access.2024.3469640",
+  "title": "Morphological Arrhythmia Classification Based on Inter-Patient and Two Leads ECG Using Machine Learning",
+  "authors": [
+   [
+    "Hasballah",
+    "Zakaria"
+   ],
+   [
+    "Elsa Sari Hayunah",
+    "Nurdiniyah"
+   ],
+   [
+    "Astri Maria",
+    "Kurniawati"
+   ],
+   [
+    "Dziban",
+    "Naufal"
+   ],
+   [
+    "Nana",
+    "Sutisna"
+   ]
+  ],
+  "container": "IEEE Access",
+  "volume": "12",
+  "issue": null,
+  "page": "147372-147386",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "Arrhythmia is a heart disorder in which the heart beats irregularly. Electrocardiogram (ECG) has been widely used as a tool for detecting arrhythmias. However, the interpretation of ECG recordings is still tedious, time-consuming, and a difficult task since it needs beat-by-beat manual examination. In arrhythmia classification studies, the inter-patient method is required to obtain unbiased results and has been used in most studies to detect arrhythmias specifically in large classes, such as normal, ventricular, atrial, and fusion beats. However, this method is still limited in detecting more specific arrhythmias, particularly morphological arrhythmias, such as bundle branch block and premature beats. In addition, the methods usually only use one ECG lead. To overcome this limitation, in this work, we propose inter-patient-based arrhythmias classification using combined two ECG leads automatically by employing machine learning methods, specifically ensemble learning. The classification is intended to detect 5 classes of morphological arrhythmia which are Left Bundle Branch Block (LBBB), Left Right Branch Block (RBBB), Premature Ventricular Contractions (PVC), Premature Atrial Contractions (PAC), and Normal. This work also details the method covering data set preparation, algorithm and design parameters exploration for pre-processing ECG signals, features extraction and selection, and hyper parameter tuning for employed machine learning methods. Evaluation results show that the proposed machine learning method, which is Ensemble Learning achieves performance improvements, compared to similar other works with average results of accuracy 87%, recall 87.4%, precision 88.4%, and F1-score 87%. These results correspond to performance improvements compare to state of the art methods for about 12% of accuracy, 28% of recall and 24% of precision, respectively. Furthermore, the proposed work potentially can be employed in real-world clinical practice, specifically as fast yet accurate aided tool for cardiac events diagnostic."
+ },
+ "10.1016/j.compeleceng.2021.107524": {
+  "doi": "10.1016/j.compeleceng.2021.107524",
+  "title": "An edge AI-enabled IoT healthcare monitoring system for smart cities",
+  "authors": [
+   [
+    "Vipin Kumar",
+    "Rathi"
+   ],
+   [
+    "Nikhil Kumar",
+    "Rajput"
+   ],
+   [
+    "Shubham",
+    "Mishra"
+   ],
+   [
+    "Bhavya Ahuja",
+    "Grover"
+   ],
+   [
+    "Prayag",
+    "Tiwari"
+   ],
+   [
+    "Amit Kumar",
+    "Jaiswal"
+   ],
+   [
+    "M. Shamim",
+    "Hossain"
+   ]
+  ],
+  "container": "Computers &amp; Electrical Engineering",
+  "volume": "96",
+  "issue": null,
+  "page": "107524",
+  "article_number": "107524",
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.1038/s41598-025-30150-x": {
+  "doi": "10.1038/s41598-025-30150-x",
+  "title": "Edge-AI integrated secure wireless IoT architecture for real time healthcare monitoring and federated anomaly detection",
+  "authors": [
+   [
+    "M.",
+    "Prabha"
+   ],
+   [
+    "S.",
+    "Nandhini"
+   ],
+   [
+    "M.",
+    "Dayanidhy"
+   ],
+   [
+    "R.",
+    "Pradeep"
+   ]
+  ],
+  "container": "Scientific Reports",
+  "volume": "16",
+  "issue": "1",
+  "page": null,
+  "article_number": "574",
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "The rapid digitalization of healthcare demands intelligent, low-latency, and privacy-preserving systems capable of operating at the network edge. This study introduces a unified Edge-AI framework that seamlessly combines dual wireless connectivity (LoRaWAN + 5G), federated learning (FL), Proof-of-Authority (PoA) block chain, and homomorphic encryption (HE) to achieve secure real-time anomaly detection in patient monitoring. A quantized CNN-LSTM model was deployed on NVIDIA Jetson Nano devices and trained using a synthetic dataset statistically modelled from the MIT-BIH Arrhythmia Database, capturing vital signals such as heart rate, temperature, and oxygen saturation. The integrated system attained 91.9% accuracy and 90.8% F1-score, with only an 8.7% latency overhead attributed to HE operations. A paired two-tailed t-test (p < 0.01) confirmed that these gains are both statistically and clinically significant, indicating reliable diagnostic performance under constrained conditions. Beyond performance, the proposed framework ensures end-to-end data confidentiality, tamper-proof auditability, and energy-efficient edge inference, offering a scalable pathway toward trustworthy, next-generation smart-healthcare ecosystems."
+ },
+ "10.1109/tim.2025.3547110": {
+  "doi": "10.1109/tim.2025.3547110",
+  "title": "An Energy-Efficient Real-Time Wearable ECG Acquisition System With Near-Data Prediagnosis for Mobile Applications",
+  "authors": [
+   [
+    "Seung Hun",
+    "Choi"
+   ],
+   [
+    "Minil",
+    "Kang"
+   ],
+   [
+    "Kon-Woo",
+    "Kwon"
+   ],
+   [
+    "Jin Seok",
+    "Kim"
+   ],
+   [
+    "Jin-Man",
+    "Jung"
+   ],
+   [
+    "Hyung-Min",
+    "Lee"
+   ]
+  ],
+  "container": "IEEE Transactions on Instrumentation and Measurement",
+  "volume": "74",
+  "issue": null,
+  "page": "1-11",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "In this article, we present an energy-efficient real-time electrocardiogram (ECG) acquisition system that utilizes near-data processing for prediagnosis and controls the frequency of wireless communication to reduce power consumption. The system consists of a wearable ECG monitoring device, an Android-based smartphone application, and a database server, which mitigate the inconvenience of the periodical visit to the hospital. To maximize the battery lifetime, the prototype wearable device adopted algorithms with near-data processing to enable prediagnosis, which was verified using the MIT-BIH arrhythmia database. Also, the real-time acquisition is available by the data transmission between the wearable device and the smartphone utilizing Bluetooth low energy (BLE) when the device starts collecting the patient’s ECG data. The wearable device cannot only acquire the raw ECG waveform data but also provide an energy-saving option to send only feature data, which is processed within the device for near-data prediagnosis. The overall power consumption of the device was reduced because the power consumption by communication was greatly reduced. Measured results verified that the feature data transmission with near-data processing can increase the battery lifetime by 15.9% compared to the conventional raw ECG data transmission."
+ },
+ "10.1109/tbcas.2025.3530790": {
+  "doi": "10.1109/tbcas.2025.3530790",
+  "title": "An Energy-Efficient Configurable 1-D CNN-Based Multi-Lead ECG Classification Coprocessor for Wearable Cardiac Monitoring Devices",
+  "authors": [
+   [
+    "Chen",
+    "Zhang"
+   ],
+   [
+    "Zhijie",
+    "Huang"
+   ],
+   [
+    "Changchun",
+    "Zhou"
+   ],
+   [
+    "Ao",
+    "Qie"
+   ],
+   [
+    "Xin an",
+    "Wang"
+   ]
+  ],
+  "container": "IEEE Transactions on Biomedical Circuits and Systems",
+  "volume": "19",
+  "issue": "2",
+  "page": "317-331",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Many electrocardiogram (ECG) processors have been widely used for cardiac monitoring. However, most of them have relatively low energy efficiency, and lack configurability in classification leads number and inference algorithm models. A multi-lead ECG coprocessor is proposed in this paper, which can perform efficient ECG anomaly detection. In order to achieve high sensitivity and positive precision of R-peak detection, a method based on zero-crossing slope adaptive threshold comparison is proposed. Also, a one-dimensional convolutional neural network (1-D CNN) based classification engine with reconfigurable processing elements (PEs) is designed, good energy efficiency is achieved by combining filter level parallelism and output channel parallelism within the PE chains with register level data reuse strategy. To improve configurability, a single instruction multiple data (SIMD) based central controller is adopted, which facilitates ECG classification with configurable number of leads and updatable inference models. The proposed ECG coprocessor is fabricated using 55 nm CMOS technology, supporting classification with an accuracy of over 98%. The test results indicate that the chip consumes 62.2 nJ at 100 MHz, which is lower than most recent works. The energy efficiency reaches 397.1 GOPS/W, achieving an improvement of over 40% compared to the reported ECG processors using CNN models. The comparison results show that this design has advantages in energy overhead and configurability."
+ },
+ "10.1109/tce.2025.3569456": {
+  "doi": "10.1109/tce.2025.3569456",
+  "title": "Energy-Efficient Health Monitoring in Smart Devices: Deep Learning-Based Technique for Wearable ECG Systems",
+  "authors": [
+   [
+    "Cong",
+    "Liu"
+   ],
+   [
+    "Jingyang",
+    "Liu"
+   ],
+   [
+    "Dan",
+    "Wang"
+   ]
+  ],
+  "container": "IEEE Transactions on Consumer Electronics",
+  "volume": "71",
+  "issue": "2",
+  "page": "4736-4743",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "This paper develops a novel deep learning-based framework for real-time ECG classification while minimizing energy consumption. It proposes the use of Gated Recurrent Units (GRUs) for robust ECG classification, coupled with modified Particle Swarm Optimization (PSO) to optimize hyperparameters and reduce the computational burden. The methodology involves training a GRU model on various ECG datasets and applying PSO to fine-tune key parameters such as learning rate, batch size, and dropout rate, leading to improved model efficiency. Simulation results show that the GRU model, when optimized using modified PSO, outperforms traditional machine learning classifiers in terms of accuracy, energy consumption, and latency. Significant reductions in energy usage were observed across different ECG datasets, making the model well-suited for battery-powered IoT devices. Additionally, the optimization led to lower latency and computational overhead, which is crucial for real-time applications."
+ },
+ "10.1109/jssc.2025.3555512": {
+  "doi": "10.1109/jssc.2025.3555512",
+  "title": "A High-Accuracy and Ultra-Energy-Efficient Cardiac Arrhythmia Classification Processor for Wearable Intelligent ECG Monitoring",
+  "authors": [
+   [
+    "Jiahao",
+    "Liu"
+   ],
+   [
+    "Ziyi",
+    "Xie"
+   ],
+   [
+    "Xiao",
+    "Liu"
+   ],
+   [
+    "Xu",
+    "Wang"
+   ],
+   [
+    "Jianbiao",
+    "Xiao"
+   ],
+   [
+    "Chaozheng",
+    "Guo"
+   ],
+   [
+    "Jiajing",
+    "Fan"
+   ],
+   [
+    "Qingsong",
+    "Liu"
+   ],
+   [
+    "Zhen",
+    "Zhu"
+   ],
+   [
+    "Sixu",
+    "Li"
+   ],
+   [
+    "Zhaomin",
+    "Zhang"
+   ],
+   [
+    "Siqi",
+    "Yang"
+   ],
+   [
+    "Weiwei",
+    "Shan"
+   ],
+   [
+    "Shuisheng",
+    "Lin"
+   ],
+   [
+    "Liang",
+    "Zhou"
+   ],
+   [
+    "Liang",
+    "Chang"
+   ],
+   [
+    "Shanshan",
+    "Liu"
+   ],
+   [
+    "Jun",
+    "Zhou"
+   ]
+  ],
+  "container": "IEEE Journal of Solid-State Circuits",
+  "volume": "60",
+  "issue": "10",
+  "page": "3762-3778",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Wearable intelligent electrocardiography (ECG) sensors with integrated cardiac arrhythmia classification processors have been used to detect and classify arrhythmia, alerting users to potential cardiac diseases. While state-of-the-art arrhythmia classification processors employ neural networks (NNs), the high computational complexity of NNs results in significant energy consumption, limiting the model size and classification performance of NNs. Additionally, inter-patient variation in ECG can lead to accuracy degradation when applying a trained NN to patients whose ECG features differ from those in the training dataset. In this work, we propose an ultra-energy-efficient cardiac arrhythmia classification processor incorporating three key technologies: 1) heartbeat difference-based classification to improve accuracy under inter-patient variation and reduce energy consumption; 2) event-driven NN computation with shared feature extraction to reduce energy consumption; and 3) an adaptive NN wake-up technique to reduce energy consumption while maintaining accuracy. The design was fabricated using 55-nm CMOS process technology and evaluated using the MIT-BIH arrhythmia dataset. For arrhythmia classification, it demonstrates an energy consumption of 0.09 μJ per classification with 98.7%/96.6% accuracy for intra-patient and inter-patient testing, respectively."
+ },
+ "10.3390/s24227207": {
+  "doi": "10.3390/s24227207",
+  "title": "A Multi-Class ECG Signal Classifier Using a Binarized Depthwise Separable CNN with the Merged Convolution–Pooling Method",
+  "authors": [
+   [
+    "Rui",
+    "Zhang"
+   ],
+   [
+    "Ranran",
+    "Zhou"
+   ],
+   [
+    "Zuting",
+    "Zhong"
+   ],
+   [
+    "Haifeng",
+    "Qi"
+   ],
+   [
+    "Yong",
+    "Wang"
+   ]
+  ],
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "22",
+  "page": "7207",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "Binarized convolutional neural networks (bCNNs) are favored for the design of low-storage, low-power cardiac arrhythmia classifiers owing to their high weight compression rate. However, multi-class classification of ECG signals based on bCNNs is challenging due to the accuracy loss introduced by the binarization operation. In this paper, an effective multi-classifier system is proposed for electrocardiogram (ECG) signals using a binarized depthwise separable convolutional neural network (bDSCNN) with the merged convolution-pooling (MCP) method. The binarized depthwise separable convolution layer is adopted to reduce the increased number of parameters in multi-classification systems. Instead of operating convolution and pooling sequentially as in a traditional convolutional neural network (CNN), the MCP method merges pooling together with convolution layers to reduce the number of computations. To further reduce hardware resources, this work employs blockwise incremental calculation to eliminate redundant storage with computations. In addition, the R peak interval data are integrated with P-QRS-T features to improve the classification accuracy. The proposed bDSCNN model is evaluated on an Intel DE1-SoC field-programmable gate array (FPGA), and the experimental results demonstrate that the proposed system achieves a five-class classification accuracy of 96.61% and a macro-F1 score of 89.08%, along with a dynamic power dissipation of 20 μW for five-category ECG signal classification. The hardware resource usage of BRAM and LUTs plus REGs is reduced by at least 2.94 and 1.74 times, respectively, compared with existing ECG classifiers using bCNN methods."
+ },
+ "10.1080/10255842.2024.2378105": {
+  "doi": "10.1080/10255842.2024.2378105",
+  "title": "Arrhythmia detection in inter-patient ECG signals using entropy rate features and RR intervals with CNN architecture",
+  "authors": [
+   [
+    "Nadia",
+    "Berrahou"
+   ],
+   [
+    "Abdelmajid",
+    "El Alami"
+   ],
+   [
+    "Abderrahim",
+    "Mesbah"
+   ],
+   [
+    "Rachid",
+    "El Alami"
+   ],
+   [
+    "Aissam",
+    "Berrahou"
+   ]
+  ],
+  "container": "Computer Methods in Biomechanics and Biomedical Engineering",
+  "volume": "29",
+  "issue": "1",
+  "page": "103-122",
+  "article_number": null,
+  "year": 2026,
+  "crossref": "ok",
+  "abstract": "The classification of inter-patient ECG data for arrhythmia detection using electrocardiogram (ECG) signals presents a significant challenge. Despite the recent surge in deep learning approaches, there remains a noticeable gap in the performance of inter-patient ECG classification. In this study, we introduce an innovative approach for ECG classification in arrhythmia detection by employing a 1D convolutional neural network (CNN) to leverage both morphological and temporal characteristics of cardiac cycles. Through the utilization of 1D-CNN layers, we automatically capture the morphological attributes of ECG data, allowing us to represent the shape of the ECG waveform around the R peaks. Additionally, we incorporate four RR interval features to provide temporal context, and we explore the potential application of entropy rate as a feature extraction technique for ECG signal classification. Consequently, the classification layers benefit from the combination of both temporal and learned features, leading to the achievement of the final arrhythmia classification. We validate our approach using the MIT-BIH arrhythmia dataset, employing both intra-patient and inter-patient paradigms for model training and testing. The model's generalization ability is assessed by evaluating it on the INCART dataset. The model attains average accuracy rates of 99.13% and 99.17% for 2-fold and 5-fold cross-validation, respectively, in intra-patient classification with five classes. In inter-patient classification with three and five classes, the model achieves average accuracies of 98.73% and 97.91%, respectively. For the INCART dataset, the model achieves an average accuracy of 98.20% for three classes. The experimental outcomes demonstrate the superiority of the proposed model compared to state-of-the-art models in recognizing arrhythmias. Thus, the proposed model exhibits enhanced generalization and the potential to serve as an effective solution for recognizing arrhythmias in real-world datasets characterized by class imbalances in practical applications."
+ },
+ "10.1016/j.medengphy.2024.104102": {
+  "doi": "10.1016/j.medengphy.2024.104102",
+  "title": "ECG arrhythmia detection in an inter-patient setting using Fourier decomposition and machine learning",
+  "authors": [
+   [
+    "Binish",
+    "Fatimah"
+   ],
+   [
+    "Amit",
+    "Singhal"
+   ],
+   [
+    "Pushpendra",
+    "Singh"
+   ]
+  ],
+  "container": "Medical Engineering &amp; Physics",
+  "volume": "124",
+  "issue": "1",
+  "page": "104102",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "ECG beat classification or arrhythmia detection through artificial intelligence (AI) is an active topic of research. It is vital to recognize and detect the type of arrhythmia for monitoring cardiac abnormalities. The AI-based ECG beat classification algorithms proposed in the literature suffer from two main drawbacks. Firstly, some of the works have not considered any unseen test data to validate the performance of their algorithms. Secondly, the accuracy of detecting superventricular ectopic beats (SVEB) needs to be improved. In this work, we address these issues by considering an inter-patient paradigm where the test dataset is collected from a different set of subjects than the training data. Also, the proposed methodology detects SVEB with an F1 score of 89.35%, which is better than existing algorithms. We have used the Fourier decomposition method (FDM) for multi-scale analysis of ECG signals and extracted time-domain and statistical features from the narrow-band signal components obtained using FDM. Feature selection techniques, including the Kruskal-Wallis test and minimum redundancy maximum relevance (mRMR) have been used to select only the relevant features and rank these features to remove any redundancy. Since the dataset used is highly imbalanced, Mathew's correlation coefficient (MCC) has also been used to analyze the performance of the proposed method. Support vector machine classifier with linear kernel achieves an overall 98.03% accuracy and 91.84% MCC for the MIT-BIH arrhythmia dataset."
+ },
+ "10.1109/iscas56072.2025.11043898": {
+  "doi": "10.1109/iscas56072.2025.11043898",
+  "title": "Extended Operational Life for Wearable Health Devices: A Hybrid TinyML and Server-Side ML Approach",
+  "authors": [
+   [
+    "Najmeh",
+    "Nazari"
+   ],
+   [
+    "Vedant",
+    "Patel"
+   ],
+   [
+    "Chongzhou",
+    "Fang"
+   ],
+   [
+    "Setareh",
+    "Rafatirad"
+   ],
+   [
+    "Houman",
+    "Homayoun"
+   ]
+  ],
+  "container": "2025 IEEE International Symposium on Circuits and Systems (ISCAS)",
+  "volume": null,
+  "issue": null,
+  "page": "1-5",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Wearable devices equipped with sensors like ECG, PPG, and heart rate monitors are pivotal in health monitoring, yet they face significant challenges due to limited battery life, particularly when using complex machine learning (ML) models for continuous monitoring. This paper explores an innovative approach to enhance energy efficiency in wearable health monitoring applications by integrating TinyML with advanced ML models. We propose using energy-efficient TinyML models for initial binary classification to detect abnormalities in ECG signals. Upon detecting an anomaly, the data is transmitted to a server where more complex ML models, perform detailed multi-label classification to identify specific conditions. Our methodology leverages event-driven software frameworks and adaptive data collection strategies to optimize power consumption, extending the operational life of wearable devices without sacrificing accuracy. The proposed system is evaluated on several metrics, including accuracy, F1-score, energy consumption, and model latency. Our findings demonstrate that the integration of TinyML can significantly extend battery life while maintaining high levels of accuracy and reliability in health monitoring, presenting a promising solution for long-term wearable device deployment."
+ },
+ "10.1145/3242969.3242985": {
+  "doi": "10.1145/3242969.3242985",
+  "title": "Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection",
+  "authors": [
+   [
+    "Philip",
+    "Schmidt"
+   ],
+   [
+    "Attila",
+    "Reiss"
+   ],
+   [
+    "Robert",
+    "Duerichen"
+   ],
+   [
+    "Claus",
+    "Marberger"
+   ],
+   [
+    "Kristof",
+    "Van Laerhoven"
+   ]
+  ],
+  "container": "Proceedings of the 20th ACM International Conference on Multimodal Interaction",
+  "volume": null,
+  "issue": null,
+  "page": "400-408",
+  "article_number": null,
+  "year": 2018,
+  "crossref": "ok",
+  "abstract": "Affect recognition aims to detect a person's affective state based on observables, with the goal to e.g. improve human-computer interaction. Long-term stress is known to have severe implications on wellbeing, which call for continuous and automated stress monitoring systems. However, the affective computing community lacks commonly used standard datasets for wearable stress detection which a) provide multimodal high-quality data, and b) include multiple affective states. Therefore, we introduce WESAD, a new publicly available dataset for wearable stress and affect detection. This multimodal dataset features physiological and motion data, recorded from both a wrist- and a chest-worn device, of 15 subjects during a lab study. The following sensor modalities are included: blood volume pulse, electrocardiogram, electrodermal activity, electromyogram, respiration, body temperature, and three-axis acceleration. Moreover, the dataset bridges the gap between previous lab studies on stress and emotions, by containing three different affective states (neutral, stress, amusement). In addition, self-reports of the subjects, which were obtained using several established questionnaires, are contained in the dataset. Furthermore, a benchmark is created on the dataset, using well-known features and standard machine learning methods. Considering the three-class classification problem ( baseline vs. stress vs. amusement ), we achieved classification accuracies of up to 80%,. In the binary case ( stress vs. non-stress ), accuracies of up to 93%, were reached. Finally, we provide a detailed analysis and comparison of the two device locations ( chest vs. wrist ) as well as the different sensor modalities."
+ },
+ "10.1109/51.932724": {
+  "doi": "10.1109/51.932724",
+  "title": "The impact of the MIT-BIH Arrhythmia Database",
+  "authors": [
+   [
+    "G.B.",
+    "Moody"
+   ],
+   [
+    "R.G.",
+    "Mark"
+   ]
+  ],
+  "container": "IEEE Engineering in Medicine and Biology Magazine",
+  "volume": "20",
+  "issue": "3",
+  "page": "45-50",
+  "article_number": null,
+  "year": 2001,
+  "crossref": "ok",
+  "abstract": "The MIT-BIH Arrhythmia Database was the first generally available set of standard test material for evaluation of arrhythmia detectors, and it has been used for that purpose as well as for basic research into cardiac dynamics at about 500 sites worldwide since 1980. It has lived a far longer life than any of its creators ever expected. Together with the American Heart Association Database, it played an interesting role in stimulating manufacturers of arrhythmia analyzers to compete on the basis of objectively measurable performance, and much of the current appreciation of the value of common databases, both for basic research and for medical device development and evaluation, can be attributed to this experience. In this article, we briefly review the history of the database, describe its contents, discuss what we have learned about database design and construction, and take a look at some of the later projects that have been stimulated by both the successes and the limitations of the MIT-BIH Arrhythmia Database."
+ },
+ "10.1109/tbme.2004.827359": {
+  "doi": "10.1109/tbme.2004.827359",
+  "title": "Automatic Classification of Heartbeats Using ECG Morphology and Heartbeat Interval Features",
+  "authors": [
+   [
+    "P.",
+    "deChazal"
+   ],
+   [
+    "M.",
+    "O'Dwyer"
+   ],
+   [
+    "R.B.",
+    "Reilly"
+   ]
+  ],
+  "container": "IEEE Transactions on Biomedical Engineering",
+  "volume": "51",
+  "issue": "7",
+  "page": "1196-1206",
+  "article_number": null,
+  "year": 2004,
+  "crossref": "ok",
+  "abstract": "A method for the automatic processing of the electrocardiogram (ECG) for the classification of heartbeats is presented. The method allocates manually detected heartbeats to one of the five beat classes recommended by ANSI/AAMI EC57:1998 standard, i.e., normal beat, ventricular ectopic beat (VEB), supraventricular ectopic beat (SVEB), fusion of a normal and a VEB, or unknown beat type. Data was obtained from the 44 nonpacemaker recordings of the MIT-BIH arrhythmia database. The data was split into two datasets with each dataset containing approximately 50,000 beats from 22 recordings. The first dataset was used to select a classifier configuration from candidate configurations. Twelve configurations processing feature sets derived from two ECG leads were compared. Feature sets were based on ECG morphology, heartbeat intervals, and RR-intervals. All configurations adopted a statistical classifier model utilizing supervised learning. The second dataset was used to provide an independent performance assessment of the selected configuration. This assessment resulted in a sensitivity of 75.9%, a positive predictivity of 38.5%, and a false positive rate of 4.7% for the SVEB class. For the VEB class, the sensitivity was 77.7%, the positive predictivity was 81.9%, and the false positive rate was 1.2%. These results are an improvement on previously reported results for automated heartbeat classification systems."
+ },
+ "10.1016/j.patcog.2018.03.005": {
+  "doi": "10.1016/j.patcog.2018.03.005",
+  "title": "Adaptive Batch Normalization for practical domain adaptation",
+  "authors": [
+   [
+    "Yanghao",
+    "Li"
+   ],
+   [
+    "Naiyan",
+    "Wang"
+   ],
+   [
+    "Jianping",
+    "Shi"
+   ],
+   [
+    "Xiaodi",
+    "Hou"
+   ],
+   [
+    "Jiaying",
+    "Liu"
+   ]
+  ],
+  "container": "Pattern Recognition",
+  "volume": "80",
+  "issue": null,
+  "page": "109-117",
+  "article_number": null,
+  "year": 2018,
+  "crossref": "ok",
+  "abstract": ""
+ },
+ "10.3389/fphys.2023.1247587": {
+  "doi": "10.3389/fphys.2023.1247587",
+  "title": "Inter-patient ECG heartbeat classification for arrhythmia classification: a new approach of multi-layer perceptron with weight capsule and sequence-to-sequence combination",
+  "authors": [
+   [
+    "Chenchen",
+    "Zhou"
+   ],
+   [
+    "Xiangkui",
+    "Li"
+   ],
+   [
+    "Fan",
+    "Feng"
+   ],
+   [
+    "Jian",
+    "Zhang"
+   ],
+   [
+    "He",
+    "Lyu"
+   ],
+   [
+    "Weixuan",
+    "Wu"
+   ],
+   [
+    "Xuezhi",
+    "Tang"
+   ],
+   [
+    "Bin",
+    "Luo"
+   ],
+   [
+    "Dong",
+    "Li"
+   ],
+   [
+    "Wei",
+    "Xiang"
+   ],
+   [
+    "Dengju",
+    "Yao"
+   ]
+  ],
+  "container": "Frontiers in Physiology",
+  "volume": "14",
+  "issue": null,
+  "page": null,
+  "article_number": "1247587",
+  "year": 2023,
+  "crossref": "ok",
+  "abstract": "Objective: The objective of this research is to construct a method to alleviate the problem of sample imbalance in classification, especially for arrhythmia classification. This approach can improve the performance of the model without using data enhancement. Methods: In this study, we have developed a new Multi-layer Perceptron (MLP) block and have used a Weight Capsule (WCapsule) network with MLP combined with sequence-to-sequence (Seq2Seq) network to classify arrhythmias. Our work is based on the MIT-BIH arrhythmia database, the original electrocardiogram (ECG) data is classified according to the criteria recommended by the American Association for Medical Instrumentation (AAMI). Also, our method’s performance is further evaluated. Results: The proposed model is evaluated using the inter-patient paradigm. Our proposed method shows an accuracy (ACC) of 99.88% under sample imbalance. For Class N, sensitivity (SEN) is 99.79%, positive predictive value (PPV) is 99.90%, and specificity (SPEC) is 99.19%. For Class S, SEN is 97.66%, PPV is 96.14%, and SPEC is 99.85%. For Class V, SEN is 99.97%, PPV is 99.07%, and SPEC is 99.94%. For Class F, SEN is 97.94%, PPV is 98.70%, and SPEC is 99.99%. When using only half of the training sample, our method shows that the SEN of Class N and V is 0.97% and 5.27% higher than the traditional machine learning algorithm. Conclusion: The proposed method combines MLP, weight capsule network with Seq2seq network, effectively addresses the problem of sample imbalance in arrhythmia classification, and produces good performance. Our method also shows promising potential in less samples."
+ },
+ "10.3389/fphys.2025.1584299": {
+  "doi": "10.3389/fphys.2025.1584299",
+  "title": "A multi-modal deep learning approach for stress detection using physiological signals: integrating time and frequency domain features",
+  "authors": [
+   [
+    "Jun-Zhi",
+    "Xiang"
+   ],
+   [
+    "Qin-Yong",
+    "Wang"
+   ],
+   [
+    "Zhi-Bin",
+    "Fang"
+   ],
+   [
+    "James A.",
+    "Esquivel"
+   ],
+   [
+    "Zhi-Xian",
+    "Su"
+   ]
+  ],
+  "container": "Frontiers in Physiology",
+  "volume": "16",
+  "issue": null,
+  "page": null,
+  "article_number": "1584299",
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Objective: This study aims to develop a multimodal deep learning-based stress detection method (MMFD-SD) using intermittently collected physiological signals from wearable devices, including accelerometer data, electrodermal activity (EDA), heart rate (HR), and skin temperature. Given the unique demands and high-intensity work environment of the nursing profession, stress measurement in nurses serves as a representative case, reflecting stress levels in other high-pressure occupations. Methods: We propose a multimodal deep learning framework that integrates time-domain and frequency-domain features for stress detection. To enhance model robustness and generalization, data augmentation techniques such as sliding window and jittering are applied. Feature extraction includes statistical features derived from raw time-domain signals and frequency-domain features obtained via Fast Fourier Transform (FFT). A customized deep learning architecture employs convolutional neural networks (CNNs) to process time-domain and frequency-domain features separately, followed by fully connected layers for final classification. To address class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) is utilized. The model is trained and evaluated on a multimodal physiological signal dataset with stress level labels. Results: Experimental results demonstrate that the MMFD-SD method achieves outstanding performance in stress detection, with an accuracy of 91.00% and an F1-score of 0.91. Compared to traditional machine learning classifiers such as logistic regression, random forest, and XGBoost, the proposed method significantly improves both accuracy and robustness. Ablation studies reveal that the integration of time-domain and frequency-domain features plays a crucial role in enhancing model performance. Additionally, sensitivity analysis confirms the model's stability and adaptability across different hyperparameter settings. Conclusion: The proposed MMFD-SD model provides an accurate and robust stress detection approach by integrating time-domain and frequency-domain features. Designed for occupational environments with intermittent data collection, it effectively addresses real-world stress monitoring challenges. Future research can explore the fusion of additional modalities, real-time stress detection, and improvements in model generalization to enhance its practical applicability."
+ },
+ "10.1109/jsen.2023.3247341": {
+  "doi": "10.1109/jsen.2023.3247341",
+  "title": "Pilot Stress Detection Through Physiological Signals Using a Transformer-Based Deep Learning Model",
+  "authors": [
+   [
+    "Yuhan",
+    "Li"
+   ],
+   [
+    "Ke",
+    "Li"
+   ],
+   [
+    "Jiaao",
+    "Chen"
+   ],
+   [
+    "Shaofan",
+    "Wang"
+   ],
+   [
+    "Haochang",
+    "Lu"
+   ],
+   [
+    "Dongsheng",
+    "Wen"
+   ]
+  ],
+  "container": "IEEE Sensors Journal",
+  "volume": "23",
+  "issue": "11",
+  "page": "11774-11784",
+  "article_number": null,
+  "year": 2023,
+  "crossref": "ok",
+  "abstract": "Pilot stress detection is a challenging task and it plays a vital role in improving flight performance and avoiding catastrophic accidents. Many deep learning models have been adopted for stress recognition. However, these models tend to ignore the dependencies between multimodal physiological signals, which can boost the model performance potentially. A transformer-based deep learning framework, which can obtain the position information of multimodal signals by combining a transformer network with a traditional convolutional neural network (CNN), is proposed for detecting pilot stress. The 14 pilots’ physiological data, including electrocardiography (ECG), electromyography (EMG), electrodermal (EDA), respiration (RESP), and skin temperature (SKT), under different stress states are collected for training and validation, and evaluated among different state-of-the-art models. The results show that the proposed model achieves an accuracy of 93.28%, 88.75%, and 84.85% for two-, three-, and four-class classification tasks, respectively, showing faster integration and promising performance."
+ },
+ "10.1109/tbcas.2024.3385993": {
+  "doi": "10.1109/tbcas.2024.3385993",
+  "title": "An Energy-Efficient ECG Processor With Ultra-Low-Parameter Multistage Neural Network and Optimized Power-of-Two Quantization",
+  "authors": [
+   [
+    "Zuo",
+    "Zhang"
+   ],
+   [
+    "Yunqi",
+    "Guan"
+   ],
+   [
+    "WenBin",
+    "Ye"
+   ]
+  ],
+  "container": "IEEE Transactions on Biomedical Circuits and Systems",
+  "volume": "18",
+  "issue": "6",
+  "page": "1296-1307",
+  "article_number": null,
+  "year": 2024,
+  "crossref": "ok",
+  "abstract": "This work presents an energy-efficient ECG processor designed for Cardiac Arrhythmia Classification. The processor integrates a pre-processing and neural network accelerator, achieved through algorithm-hardware co-design to optimize hardware resources. We propose a lightweight two-stage neural network architecture, where the first stage includes discrete wavelet transform and an ultra-low-parameter multilayer perceptron (MLP) network, and the second stage utilizes group convolution and channel shuffle. Both stages leverage neural networks for hardware resource reuse and feature a reconfigurable processing element array and memory blocks adapted to the proposed two-stage structure to efficiently handle various convolution and MLP layers operations in the two-stage network. Additionally, an optimized power-of-two (OPOT) quantization technique is proposed to enhance accuracy in low-bit quantization, and a multiplier-less processing element structure tailored for the OPOT weight quantization is introduced. The ECG processor was implemented on a 65nm CMOS process technology with 4KB of SRAM memory, achieving an energy consumption per inference of 0.15 uJ with a power supply of 1V, 64% energy saving compared to the recent state-of-the-art work. Under 4-bit weight precision, the 5-class ECG signal classification accuracy reached 98.59% on the MIT-BIH arrhythmia dataset."
+ },
+ "10.1109/jbhi.2025.3589142": {
+  "doi": "10.1109/jbhi.2025.3589142",
+  "title": "A Lightweight ML-Based ECG Classification System Using Self-Personalized Anomaly Detector",
+  "authors": [
+   [
+    "Sunwoo",
+    "Yoo"
+   ],
+   [
+    "Seungwoo",
+    "Hong"
+   ],
+   [
+    "Dongyun",
+    "Kam"
+   ],
+   [
+    "Youngjoo",
+    "Lee"
+   ]
+  ],
+  "container": "IEEE Journal of Biomedical and Health Informatics",
+  "volume": "29",
+  "issue": "10",
+  "page": "7274-7284",
+  "article_number": null,
+  "year": 2025,
+  "crossref": "ok",
+  "abstract": "Targeting the real-time arrhythmia diagnosis on resource-limited edge devices, in this paper, we present a lightweight electrocardiogram classification system using event-driven machine learning processing. A self-personalized anomaly detector based on signal processing is newly developed to dynamically update internal decision criteria from each patient's recent electrocardiogram history, that activates the following machine learning model only for the abnormal cases. A Siamese neural network is adopted to identify detailed arrhythmia classes by comparing features from the self-personalized normal data and the current abnormal input, increasing the classification accuracy. We also develop a simple version of our Siamese model to reduce the number of trainable parameters while preserving the end-to-end classification accuracy. Experimental results show that the proposed event-driven system reduces ML model activations by 74% for normal beats, achieving a classification accuracy of 96.9% comparable to leading solutions. Additionally, it consumes three times less energy and achieves 3.6 times faster processing latency compared to cost-aware method on a mobile GPU platform, enabling extended battery life and real-time analysis on edge devices."
+ },
+ "10.1155/2021/6217601": {
+  "doi": "10.1155/2021/6217601",
+  "title": "Personalized Federated Learning for ECG Classification Based on Feature Alignment",
+  "authors": [
+   [
+    "Renjie",
+    "Tang"
+   ],
+   [
+    "Junzhou",
+    "Luo"
+   ],
+   [
+    "Junbo",
+    "Qian"
+   ],
+   [
+    "Jiahui",
+    "Jin"
+   ]
+  ],
+  "container": "Security and Communication Networks",
+  "volume": "2021",
+  "issue": null,
+  "page": "1-9",
+  "article_number": null,
+  "year": 2021,
+  "crossref": "ok",
+  "abstract": "Electrocardiogram (ECG) data classification is a hot research area for its application in medical information processing. However, insufficient data, privacy preserve, and local deployment are still challenging difficulties. To address these problems, a novel personalized federated learning method for ECG classification is proposed in this paper. First, a global model is trained with federated learning framework on multiple local data clients. Then, we use the global model and private data to train the local model. To reduce the feature inconsistency between global and private local data and for better fitting the private local data, a novel ”feature alignment” module is devised to guarantee the uniformity, which contains two parts, global alignment and local alignment, respectively. For global alignment, the graph metric of batch data is used to constrain the dissimilarity between features generated by the global model and local model. For local alignment, triplet loss is adopted to increase discriminative ability for local private data. Comprehensive experiments on our collected dataset are evaluated. The results show that the proposed method can be better adapted to local data and exhibit superior ability of generalization."
+ }
+}

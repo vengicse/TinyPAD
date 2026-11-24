@@ -1,0 +1,8 @@
+# Environment used on RunPod: image runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04 (PyTorch 2.4, Python 3.11).
+# Exact versions of the packages below were not logged on the pod; these are minimum versions.
+torch>=2.4
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+wfdb>=4.1
+matplotlib>=3.8
